@@ -214,7 +214,7 @@ public class InstagramAuthActivity extends Activity {
     };
 
     @SuppressWarnings("deprecation")
-    private static void ClearCookies(Context context) {
+    public static void ClearCookies(Context context) {
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP_MR1) {
             Log.d("IGAuthActivity", "Using ClearCookies code for API >=" + String.valueOf(Build.VERSION_CODES.LOLLIPOP_MR1));

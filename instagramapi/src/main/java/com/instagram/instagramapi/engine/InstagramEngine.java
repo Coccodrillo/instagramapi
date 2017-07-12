@@ -202,6 +202,7 @@ public class InstagramEngine {
         activity.startActivityForResult(intent, requestCode);
 
         setSession(null);
+        InstagramAuthActivity.ClearCookies(activity);
     }
 
 
